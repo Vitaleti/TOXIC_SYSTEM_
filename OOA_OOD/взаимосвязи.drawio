@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-02-19T20:45:45.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="zTq6F1FuDagsCWnQZ2xr" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="yiePkZeSb27MAjYHv1FP">
+    <mxGraphModel dx="696" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-6" value="ГЛАВНЫЙ ГЕРОЙ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-7" value="Положение(x, y) - int, int&lt;br&gt;Уровень здоровья - int&lt;br&gt;Урон - int&lt;br&gt;Разброс урона -&amp;nbsp;&lt;br&gt;Обзор -&lt;br&gt;Размер - int, int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-6">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-6">
+          <mxGeometry y="120" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-9" value="Ударить(выстрелить)&lt;div&gt;Двигаться(wasd)&lt;br&gt;Блокировать удар&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-6">
+          <mxGeometry y="148" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-10" value="ВРАГИ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-11" value="Тип врага -&amp;nbsp;&lt;br&gt;Тип атаки -&lt;br&gt;Положение(x, y) - int, int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Уровень здоровья - int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Урон - int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Разброс урона -&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Обзор -&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Размер - int, int&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Поведение -&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-10">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-10">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-13" value="Ударить (выстрелить)&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Двигаться(wasd)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Блокировать удар&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Проверить расстояние&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-10">
+          <mxGeometry y="178" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-14" value="ЭЛЕМЕНТЫ КАРТЫ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-15" value="Положение(x, y) - int, int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Уровень здоровья - int&lt;br&gt;Размер - int, int&lt;br&gt;Поведение -&amp;nbsp;&lt;br&gt;&lt;br&gt;Задний или передний план" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-14">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-14">
+          <mxGeometry y="130" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-17" value="Двигаться с помощью героя&lt;br&gt;Разрушиться" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-14">
+          <mxGeometry y="158" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-18" value="БОНУС_ЭЛЕМЕНТЫ&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-19" value="Положение(x, y) - int, int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Размер - int, int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-18">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-18">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-21" value="Бустануть героя" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-18">
+          <mxGeometry y="68" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-22" value="ОРУЖИЕ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-23" value="Тип (ближнее, дальнее)&amp;nbsp;&lt;br&gt;Положение(x, y) - int, int&lt;br&gt;Размер - int, int&lt;br&gt;Кол-во патронов всего -&amp;nbsp;&lt;br&gt;Кол-во патронов осталось -&lt;br&gt;Скорость стрельбы -&amp;nbsp;&lt;br&gt;Урон -&lt;br&gt;Разброс урона -&lt;br&gt;&lt;div&gt;Скорость ГГ с оружием -&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-22">
+          <mxGeometry y="26" width="160" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-22">
+          <mxGeometry y="180" width="160" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-25" value="Стрелять&lt;br&gt;Перезарядиться" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-22">
+          <mxGeometry y="198" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-26" value="ИГРА" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-27" value="Размер игрового поля -&lt;div&gt;Кол-во и данные о врагах -&lt;/div&gt;&lt;div&gt;Данные о ГГ -&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-26">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-26">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-29" value="Создать персонажей&lt;br&gt;Запустить уровень&lt;br&gt;Атаковать&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-26">
+          <mxGeometry y="98" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-30" value="ЧЕЛОВЕК" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="499" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-31" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-30">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-30">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-33" value="УправлятьГероем" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-30">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-34" value="Визуализатор" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="499" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-34">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-37" value="Отрисовать" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-34">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-38" value="ИГРОВОЙ_ЭЛЕМЕНТ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="499" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-39" value="Положение(x, y) - int, int&lt;div&gt;Размер - int, int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-38">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-38">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vYrmGGMBoD2GX2UfYbkV-41" value="СоздатьЭлемент" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vYrmGGMBoD2GX2UfYbkV-38">
+          <mxGeometry y="88" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
